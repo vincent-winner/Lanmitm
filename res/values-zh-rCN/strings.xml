@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lanmitm</string>
+    <string name="default_inject">&#060;script type=\'text&#047;javascript\'&#062;alert(\'lanmitm hacked\');&#060;&#047;script&#062;</string>
+
+    <!-- 国际化改动 -->
+    <!-- 浏览器 -->
+    <string name="saved_in">已保存至%s</string>
+
+    <!-- 会话劫持 -->
+    <string name="session_hijack">会话劫持</string>
+    <string name="hijack_history">劫持历史</string>
+
+    <!-- 主机扫描 -->
+    <string name="found_lan_hosts">发现局域网中的 %d 台主机</string>
+    <string name="host_list">主机列表</string>
+
+    <!-- Http相关 -->
+    <string name="http_server_configuration">HttpServer配置</string>
+    <string name="http_server_log_tips">&lt;br/&gt;这里是日志窗口：&lt;br/&gt;&lt;br/&gt;—http文档目录:存储卡/lanmitm/www&lt;br/&gt;—开启后请在浏览器中输入&lt;br/&gt;—%s 访问页面&lt;br/&gt;&lt;br/&gt;</string>
+    <string name="http_clone">克隆网站</string>
+    <string name="obtain_success">获取成功</string>
+
+    <!-- 代码注入 -->
+    <string name="code_inject">代码注入</string>
+    <string name="regular_expression_invalid">正则表达式不符合规则</string>
+    <string name="saved">已保存</string>
+    <string name="save">保存</string>
+    <string name="inject_address_tips">需要注入的网页的url的正则表达式</string>
+    <string name="inject_code_tips">需要注入的代码</string>
+
+    <!-- 禁止上网 -->
+    <string name="prohibit_internet">禁止上网</string>
+
+    <!-- 主界面 -->
+    <string name="system_alter">系统提示</string>
+    <string name="check_root_tips">本应用只能在已root的Android手机上运行，下载root工具？</string>
+    <string name="download">下载</string>
+    <string name="check_360_assistant">本程序运行需要安装%s，是否通过360手机助手安装它？"</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="wifi_connect_tip">网络未连接，是否打开设置WiFi？</string>
+    <string name="return_tip">返回</string>
+    <string name="exit">退出</string>
+    <string name="setting">设置</string>
+    <string name="root_tool">root工具</string>
+    <string name="choose_way">选择方式</string>
+    <string name="exit_tip">再按一次退出程序</string>
+    <string name="one_way_host">主机单向</string>
+    <string name="one_way_router">路由单向</string>
+    <string name="two_way">双向欺骗</string>
+    <string name="check_busybox_tip">本程序需要安装busybox才能正确运行，下载busybox？</string>
+    <string name="enable_protection">启用防护</string>
+    <string name="protection_tips">防御arp、dns欺骗等攻击</string>
+    <string name="arp_deception">ARP欺骗方式</string>
+    <string name="arp_deception_tips">路由、主机单向欺骗或者双向欺骗</string>
+    <string name="http_server_tips">自定义httpserver，提供简单web服务</string>
+    <string name="hijact_history_tips">查看保存在本地的会话劫持</string>
+    <string name="scan">扫描主机</string>
+
+    <!-- 功能选择 -->
+    <string name="function_select">功能选择</string>
+    <string name="sniffer_tips">抓取并转发局域网某台设备与其他主机的通信数据</string>
+    <string name="session_hijack_tips">劫持局域网中某台设备的http会话</string>
+    <string name="code_inject_tips">劫持局域网中某台设备的http会话</string>
+    <string name="prohibit_internet_tips">使目标主机无法上网，开启该功能后其他功能将停止</string>
+
+    <!-- 数据嗅探 -->
+    <string name="sniffer">数据嗅探</string>
+    <string name="already_sniffer_data">已捕获  %f MB数据</string>
+
+    <!-- 网页克隆 -->
+    <string name="http_clone_tips">克隆网页，进行社工</string>
+    <string name="clone_address">请输入需要克隆的网页地址</string>
+    <string name="start_clone">开始克隆</string>
+
+    <!-- 关于 -->
+    <string name="about_lanmitm">关于Lanmitm</string>
+    <string name="lanmitm_about_subtitle">Lanmitm - 中间人攻击测试工具</string>
+    <string name="disclaimer">免责声明</string>
+    <string name="discussion">讨论交流</string>
+    <string name="upgrade_history">更新历史</string>
+    <string name="about_explain">本应用开发初衷仅为了学习，未经他人允许，对他人局域网进行的破坏，干扰等行为与本人无关。在应用使用过程中有任何问题欢迎随时和我交流。</string>
+
+    
+    <string name="arp_service_start_error">ARP服务启动失败</string>
+</resources>

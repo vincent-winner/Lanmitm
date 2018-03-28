@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lanmitm</string>
+    <string name="default_inject">&#060;script type=\'text&#047;javascript\'&#062;alert(\'lanmitm hacked\');&#060;&#047;script&#062;</string>
+
+    <!-- 国际化改动 -->
+    <!-- 浏览器 -->
+    <string name="saved_in">Saved to %s</string>
+
+    <!-- 会话劫持 -->
+    <string name="session_hijack">Session hijack</string>
+    <string name="hijack_history">Session history</string>
+
+    <!-- 主机扫描 -->
+    <string name="found_lan_hosts">Found %d host in LAN</string>
+    <string name="host_list">Host list</string>
+
+    <!-- Http相关 -->
+    <string name="http_server_configuration">HttpServer configuration</string>
+    <string name="http_server_log_tips">&lt;br/&gt;Here is the log window：&lt;br/&gt;&lt;br/&gt;—Http documents directory:sdcard/lanmitm/www&lt;br/&gt;—After opening in a browser, enter&lt;br/&gt;—%s to access to page&lt;br/&gt;&lt;br/&gt;</string>
+    <string name="http_clone">Clone website</string>
+    <string name="obtain_success">Obtained successful</string>
+
+    <!-- 代码注入 -->
+    <string name="code_inject">Code inject</string>
+    <string name="regular_expression_invalid">Regular expressions invalid</string>
+    <string name="saved">Saved</string>
+    <string name="save">Save</string>
+    <string name="inject_address_tips">Enter the URL of the Web page of the regular expression</string>
+    <string name="inject_code_tips">Code that needs to be injected</string>
+
+    <!-- 禁止上网 -->
+    <string name="prohibit_internet">Prohibit access internet</string>
+
+    <!-- 主界面 -->
+    <string name="system_alter">System tips</string>
+    <string name="check_root_tips">This application runs only on root Android phone, do you want to download a root tool？</string>
+    <string name="download">download</string>
+    <string name="check_360_assistant">This program needs to install %s, whether through 360 Mobile Assistant to install it?</string>
+    <string name="yes">yes</string>
+    <string name="no">noe</string>
+    <string name="wifi_connect_tip">The network is not connected, open set up WiFi？</string>
+    <string name="return_tip">return</string>
+    <string name="exit">exit</string>
+    <string name="setting">setting</string>
+    <string name="root_tool">root tool</string>
+    <string name="choose_way">Mode Select</string>
+    <string name="exit_tip">Press once again to exit the program</string>
+    <string name="one_way_host">Host only</string>
+    <string name="one_way_router">Router only</string>
+    <string name="two_way">Two  way cheat</string>
+    <string name="check_busybox_tip">This program needs to install BusyBox to run correctly, do you want to download BusyBox？</string>
+    <string name="enable_protection">Enable protection</string>
+    <string name="protection_tips">Defense against ARP, DNS spoofing attacks</string>
+    <string name="arp_deception">ARP deception</string>
+    <string name="arp_deception_tips">One-way cheats or two-way routing, host spoofing</string>
+    <string name="http_server_tips">Custom httpserver, provides a simple Web services</string>
+    <string name="hijact_history_tips">View in the local session hijacking</string>
+    <string name="scan">Scan</string>
+    <!-- 功能选择 -->
+    <string name="function_select">Feature selection</string>
+    <string name="sniffer_tips">Grab-and-forward LAN communication data for a device with other hosts</string>
+    <string name="session_hijack_tips">HTTP session hijacking of a device in the LAN</string>
+    <string name="code_inject_tips">HTTP session hijacking of a device in the LAN</string>
+    <string name="prohibit_internet_tips">The target host have no Internet access, open the feature additional functionality will cease</string>
+
+    <!-- 数据嗅探 -->
+    <string name="sniffer">Data sniffing</string>
+    <string name="already_sniffer_data">Captured %f MB data</string>
+
+    <!-- 网页克隆 -->
+    <string name="http_clone_tips">Clone Web pages, Social Engineering</string>
+    <string name="clone_address">Please enter the clone\'s Web page addressng</string>
+    <string name="start_clone">Start clone</string>
+
+    <!-- 关于 -->
+    <string name="about_lanmitm">About Lanmitm</string>
+    <string name="lanmitm_about_subtitle">Lanmitm - Middle attack test tools</string>
+    <string name="disclaimer">Disclaimer</string>
+    <string name="discussion">Discussion</string>
+    <string name="upgrade_history">Upgrade history</string>
+    <string name="about_explain">This application is only supposed to learn, without his permission, damage to the other LAN, acts of interference has nothing to do with me. Using in the application have any questions please feel free to communicate with me.</string>
+
+    <string name="arp_service_start_error">ARP service failed to start</string>
+</resources>

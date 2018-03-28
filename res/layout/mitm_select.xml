@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/action_bar" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#ff171c20" />
+
+    <RelativeLayout
+        android:id="@+id/mitm_select_sniffer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff171c20"
+        android:gravity="left"
+        android:orientation="horizontal"
+        android:padding="10.0dip" >
+
+        <TextView
+            android:id="@+id/mitm_select_sniffer_head"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingTop="4.0dip"
+            android:text="@string/sniffer"
+            android:textColor="#ffffffff"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mitm_select_sniffer_head"
+            android:gravity="bottom|left|center"
+            android:text="@string/sniffer_tips"
+            android:textColor="#ffffffcc"
+            android:textSize="13sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000" />
+
+    <RelativeLayout
+        android:id="@+id/mitm_select_hijack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff171c20"
+        android:gravity="left"
+        android:orientation="horizontal"
+        android:padding="10.0dip" >
+
+        <TextView
+            android:id="@+id/mitm_select_hijack_head"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingTop="4.0dip"
+            android:text="@string/session_hijack"
+            android:textColor="#ffffffff"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mitm_select_hijack_head"
+            android:gravity="bottom|left|center"
+            android:text="@string/session_hijack_tips"
+            android:textColor="#ffffffcc"
+            android:textSize="13sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000" />
+
+    <RelativeLayout
+        android:id="@+id/mitm_select_inject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff171c20"
+        android:gravity="left"
+        android:orientation="horizontal"
+        android:padding="10.0dip" >
+
+        <TextView
+            android:id="@+id/mitm_select_inject_head"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingTop="4.0dip"
+            android:text="@string/code_inject"
+            android:textColor="#ffffffff"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mitm_select_inject_head"
+            android:gravity="bottom|left|center"
+            android:text="@string/code_inject_tips"
+            android:textColor="#ffffffcc"
+            android:textSize="13sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000" />
+
+    <RelativeLayout
+        android:id="@+id/mitm_select_kill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff171c20"
+        android:gravity="left"
+        android:orientation="horizontal"
+        android:padding="10.0dip" >
+
+        <TextView
+            android:id="@+id/mitm_select_kill_head"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingTop="4.0dip"
+            android:text="@string/prohibit_internet"
+            android:textColor="#ffffffff"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mitm_select_kill_head"
+            android:gravity="bottom|left|center"
+            android:text="@string/prohibit_internet_tips"
+            android:textColor="#ffffffcc"
+            android:textSize="13sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000" />
+
+    <RelativeLayout
+        android:id="@+id/mitm_select_monitor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff171c20"
+        android:gravity="left"
+        android:orientation="horizontal"
+        android:padding="10.0dip"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/mitm_select_monitor_head"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingTop="4.0dip"
+            android:text="上网监控"
+            android:textColor="#ffffffff"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mitm_select_monitor_head"
+            android:gravity="bottom|left|center"
+            android:text="监控目标主机上网，跟踪浏览器"
+            android:textColor="#ffffffcc"
+            android:textSize="13sp" />
+    </RelativeLayout>
+
+</LinearLayout>

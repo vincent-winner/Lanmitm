@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lanmitm</string>
+    <string name="default_inject">&#060;script type=\'text&#047;javascript\'&#062;alert(\'lanmitm hacked\');&#060;&#047;script&#062;</string>
+
+    <!-- 国际化改动 -->
+    <!-- 浏览器 -->
+    <string name="saved_in">Grabar en %s</string>
+
+    <!-- 会话劫持 -->
+    <string name="session_hijack">Inicio de Sesión</string>
+    <string name="hijack_history">Historial de Sesión</string>
+
+    <!-- 主机扫描 -->
+    <string name="found_lan_hosts">Se encontraron %d de servidores en la red LAN</string>
+    <string name="host_list">Listado de Servidores</string>
+
+    <!-- Http相关 -->
+    <string name="http_server_configuration">Configuración HTTP del servidor</string>
+    <string name="http_server_log_tips">&lt;br/&gt;Aqui esta el historial de la sesión：&lt;br/&gt;&lt;br/&gt;—Directorio de documentos HTTP:sdcard/lanmitm/www&lt;br/&gt;—Luego de abrir el navegador, ingrese&lt;br/&gt;—%s a acceder a la pagina&lt;br/&gt;&lt;br/&gt;</string>
+    <string name="http_clone">Clonar Página web</string>
+    <string name="obtain_success">Obtenida con éxito</string>
+
+    <!-- 代码注入 -->
+    <string name="code_inject">Injección de código</string>
+    <string name="regular_expression_invalid">Expresión regular inválida</string>
+    <string name="saved">Grabado</string>
+    <string name="save">Grabar</string>
+    <string name="inject_address_tips">Ingrese la dirección URL the la página regular</string>
+    <string name="inject_code_tips">Código que debe ser injectado</string>
+
+    <!-- 禁止上网 -->
+    <string name="prohibit_internet">Acceso a internet prohibido</string>
+
+    <!-- 主界面 -->
+    <string name="system_alter">Sugerencias de sistema</string>
+    <string name="check_root_tips">Esta aplicación solo funcionará en un celular android rooteado, desdea descargar la herramienta de root?？</string>
+    <string name="download">descargar</string>
+    <string name="check_360_assistant">Este programa necesita instalar %s, se usará el Asistente 360 Mobile Assistant para instalar?</string>
+    <string name="yes">si</string>
+    <string name="no">no</string>
+    <string name="wifi_connect_tip">La conexión a internet no esta disponible, abrir configuración WiFi？</string>
+    <string name="return_tip">continuar</string>
+    <string name="exit">salir</string>
+    <string name="setting">configuración</string>
+    <string name="root_tool">herramienta root</string>
+    <string name="choose_way">Selección de modo</string>
+    <string name="exit_tip">Presione una vez mas para salir del programa</string>
+    <string name="one_way_host">Solamente un solo Host</string>
+    <string name="one_way_router">Solamente router</string>
+    <string name="two_way">Truco 2-vias</string>
+    <string name="check_busybox_tip">Este programa requiere instalar BusyBox para operar correctamente, desea descargar BusyBox?？</string>
+    <string name="enable_protection">Habilitar protección</string>
+    <string name="protection_tips">Defensa contra ARP, Ataque de spoofing de dominio</string>
+    <string name="arp_deception">ARP Injección</string>
+    <string name="arp_deception_tips">Truco 1-via o 2-vias via router, spoof de host</string>
+    <string name="http_server_tips">Servidor HTTP personalizado, provee un servicio web simple</string>
+    <string name="hijact_history_tips">Ver sesión local de hijacking</string>
+    <string name="scan">Scanear</string>
+    <!-- 功能选择 -->
+    <string name="function_select">Seleción de Opción</string>
+    <string name="sniffer_tips">Capturar y reenviar la información de la comunicación LAN a otro dispositivo con otro host</string>
+    <string name="session_hijack_tips">Hijacking HTTP de sesión de dispositivos en la red LAN</string>
+    <string name="code_inject_tips">Hijacking HTTP de sesión de dispositivos en la red LAN</string>
+    <string name="prohibit_internet_tips">El servidor objetivo no posee acceso a internet, al abrir la opción las funciones adicionales van a dejar de operar</string>
+
+    <!-- 数据嗅探 -->
+    <string name="sniffer">Sniffing de información</string>
+    <string name="already_sniffer_data">Captura %f MB de información</string>
+
+    <!-- 网页克隆 -->
+    <string name="http_clone_tips">Clonar Página web, Ingeniería Social</string>
+    <string name="clone_address">Por favor ingrese la dirección de la página web para clonar\'s Página web</string>
+    <string name="start_clone">Empezar a clonar</string>
+
+    <!-- 关于 -->
+    <string name="about_lanmitm">Sobre Lanmitm</string>
+    <string name="lanmitm_about_subtitle">Lanmitm - Middle attack test tools</string>
+    <string name="disclaimer">Advertencia</string>
+    <string name="discussion">Discusión</string>
+    <string name="upgrade_history">Historial de actualizaciónes</string>
+    <string name="about_explain">Esta aplicación es solo para aprendizajes, requiere autorización de uso del usuario final de la red LAN, los actos de interferencia no a una red externa esta prohibido. Si tiene alguna pregunta por favor no dude de comunicarse conmigo.</string>
+
+    <string name="arp_service_start_error">Servicio ARP fracaso en activarse</string>
+</resources>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff171c20"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/topbar_bg" >
+
+        <ImageView
+            android:id="@+id/actionbar_logo"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/ic_launch" />
+
+        <TextView
+            android:id="@+id/actionbar_logo_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/actionbar_logo"
+            android:text="@string/app_name"
+            android:textColor="#ffffffff"
+            android:textSize="22sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/header_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" >
+
+        <ProgressBar
+            android:id="@+id/header_progress"
+            style="@style/Widget.Sherlock.ProgressBar"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/header_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="9.0dip"
+            android:paddingBottom="8.0dip"
+            android:paddingLeft="8.0dip"
+            android:paddingRight="0dp"
+            android:text="正在执行代码注入"
+            android:textColor="#ffffff"
+            android:textSize="15.0sp" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/inject_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fadeScrollbars="false"
+        android:scrollbars="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:text="@string/clone_address"
+                android:textColor="#FFFFCC"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/clone_url"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/edit_text_bg"
+                android:gravity="center_vertical|left"
+                android:hint="http://www.oinux.com"
+                android:padding="6dp"
+                android:singleLine="true" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <CheckBox
+                        android:id="@+id/css_check"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:button="@drawable/btn_check"
+                        android:checked="true"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="0dp"
+                        android:text="*.css"
+                        android:textColor="#ffffff"
+                        android:textSize="15sp" />
+
+                    <CheckBox
+                        android:id="@+id/js_check"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:button="@drawable/btn_check"
+                        android:checked="true"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="0dp"
+                        android:text="*.js"
+                        android:textColor="#ffffff"
+                        android:textSize="15sp" />
+
+                    <CheckBox
+                        android:id="@+id/png_check"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:button="@drawable/btn_check"
+                        android:checked="true"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="0dp"
+                        android:text="*.png"
+                        android:textColor="#ffffff"
+                        android:textSize="15sp" />
+
+                    <CheckBox
+                        android:id="@+id/gif_check"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:button="@drawable/btn_check"
+                        android:checked="true"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="0dp"
+                        android:text="*.gif"
+                        android:textColor="#ffffff"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal" >
+
+                    <CheckBox
+                        android:id="@+id/jpg_check"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/btn_check"
+                        android:checked="true"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="0dp"
+                        android:text="*.jpg"
+                        android:textColor="#ffffff"
+                        android:textSize="15sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/clone_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:layout_marginTop="18.0dip"
+                android:background="@drawable/button"
+                android:gravity="center"
+                android:padding="14.0dip"
+                android:text="@string/start_clone"
+                android:textColor="#ffffffff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/http_clone_log"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:padding="10dp"
+                android:text=""
+                android:textSize="15sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

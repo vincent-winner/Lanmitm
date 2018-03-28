@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="log_info">#FFFFCC</color>
+    <color name="log_warn">#CC9966</color>
+    <color name="log_error">#FF6666</color>
+</resources>
